@@ -350,7 +350,7 @@ module YamlRecord
     #   end
     #
     def self.source(file=nil)
-      file ? @file = (file.to_s + ".yml") : @file
+      file ? @file = (file.to_s) : @file
     end
 
     # Overrides equality to match if matching ids
